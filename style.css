@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #021633;
+}
+.blur{
+    backdrop-filter: blur(25px);
+    z-index: 3000;
+}
+.logo{
+    width: 80px;
+}
+.tes{
+    border: 2px solid #044CBB;
+    color: #044CBB;
+}
+.btn-tes{
+    background-color: #044CBB;
+    color: #fff;
+}
+.btn-tes:hover{
+    background-color: #044CBB;
+    color: #fff;
+}
+#hero,#services, #classes, #plan, #bmi, #stories,#blog, #cta, #footer{
+    padding-top: 10%;
+    background-color: #021633;
+}
+.pax{
+    box-shadow: 40px -40px #044CBB;
+}
+/* #plan{
+    padding-bottom: 3%;
+}
+#services{
+    padding-bottom: 1%;
+} */
+.content{
+    margin-top: 10%;
+}
+.herotxt{
+    position: relative;
+}
+.start{
+    position: absolute;
+    top: 0;
+    left: 60%;
+}
+.arw{
+    margin-right: -15px;
+}
+.card1{
+    background-color: #ffffff0f;
+    height: 100%;
+}
+.viewspc{
+    display: none;
+}
+.card4{
+    background-color: #ffffff0f;
+    height: 100%;
+}
+.card1:hover{
+    background-color: #044CBB;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+    transform: translateY(-20px);
+}
+.ttt{
+    color: transparent !important;
+    -webkit-text-stroke: 1px #fff;
+}
+.card2 img{
+    height: 200px;
+}
+.caption{
+    background-color: #ffffff0f;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+.caption:hover{
+    background-color: #044CBB;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.box{
+    background-color: #ffffff0f;
+    cursor: pointer;
+}
+.rate{
+    background-color: #ffffff0f;
+    width: 150px;
+}
+
+.box2:hover{
+    background-color: #044CBB;
+    transition: 0.5s ease-in;
+    border: none !important;
+}
+.calc input{
+    height: 45px;
+    padding-left: 10px;
+    color: #fff;
+}
+.calc input::placeholder{
+    color: #fff;
+}
+.bmicheck{
+    width: 200px !important;
+
+}
+.carousel-control-prev{
+    left: 85%;
+    width: 30px;
+    height: 30px;
+    top: 80%;
+}
+.carousel-control-next{
+    right: calc(30px + 30px + 20px);
+    width: 30px;
+    height: 30px;
+    top: 80%;
+}
+.ready{
+    background-color: #044CBB;
+}
+.footlogo img{
+    width: 80px;
+}
+.footinp{
+    background-color: transparent;
+    color: #fff;
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.footinp::placeholder{
+    color: #fff;
+}
+.footcov{
+    background-color: #ffffff2c;
+    width: fit-content;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  outline: none;
+}
+@media(max-width: 989px){
+    .footcov{
+        width: 100%;
+    }
+    .carousel-control-prev{
+        left: 75%;
+        width: 30px;
+        height: 30px;
+        top: 95%;
+    }
+    .carousel-control-next{
+        right: 20px;
+        width: 30px;
+        height: 30px;
+        top: 95%;
+    } 
+}
+
+@media(max-width: 768px){
+    body{
+        padding-top: 10%;
+    }
+    .carousel-control-prev{
+        left: 75%;
+        width: 30px;
+        height: 30px;
+        top: 95%;
+    }
+    .carousel-control-next{
+        right: 20px;
+        width: 30px;
+        height: 30px;
+        top: 95%;
+    } 
+    .footcov{
+        width: 100%;
+    }
+}
+
+@media(max-width: 600px){
+    body{
+        padding-top: 25%;
+    }
+    .carousel-control-prev{
+        left: 75%;
+        width: 30px;
+        height: 30px;
+        top: 95%;
+    }
+    .carousel-control-next{
+        right: 20px;
+        width: 30px;
+        height: 30px;
+        top: 95%;
+    }
+    .footcov{
+        width: 100%;
+    }
+    .pax{
+        width: 88% !important;
+    }
+    #hero,#services, #classes, #plan, #bmi, #stories,#blog, #cta, #footer{
+        margin-top: 20%;
+        background-color: #021633;
+    }
+    #hero,#services, #classes, #plan, #bmi, #stories,#blog, #cta, #footer{
+        padding-top: 10%;
+        background-color: #021633;
+    }
+    
+}
